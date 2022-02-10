@@ -1,6 +1,7 @@
 # terraform-aws-eks-service-account-with-oidc-iam-role
 module to create service account and role 
 
+```shell
 module "module1" { 
   source = "git::git@github.com:guru1602/terraform-aws-eks-service-account-with-oidc-iam-role.git"
                  
@@ -14,3 +15,4 @@ module "module1" {
   Env                         = "test"
   provision_k8s_sa            = true
 }
+```
